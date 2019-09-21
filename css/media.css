@@ -1,0 +1,822 @@
+@media screen and (max-width: 1450px){
+	.layout{
+		background-position: -233px 0;
+	}
+}
+
+@media screen and (max-width: 1300px){
+	.layout{
+		background-position: -270px 0;
+	}
+	
+	.img-monitoring{
+		right: 0;
+	}
+}
+
+
+@media screen and (max-width: 1200px){
+	.wrapper{
+		max-width: 992px;
+		padding: 0 15px;
+		box-sizing: border-box;
+	}
+	
+	.nav-list li{
+		font-size: 15px;
+	}
+	
+	.layout{
+		background-position: -395px 0;
+	}
+	
+	.header-info{
+		padding-top: 90px;
+	}
+	
+	.intro-packages .item-intro{
+		width: 48%;
+		margin-bottom: 25px;
+	}
+	
+	.intro-packages .grid-root .invest{
+		margin-left: 0;
+	}
+	
+	.location{
+		width: auto;
+	}
+	
+	.important-info{
+		background: none;
+	}
+	
+	.unlist:nth-child(3) {
+		margin-left: 125px;
+	}
+	
+	.elasticstack-text{
+		padding: 0 15px;
+	}
+	
+	.example article{
+		width: 100%;
+	}
+	
+	.first-place {
+		position: absolute;
+		top: 72px;
+		left: 50%;
+		margin-left: -258px;
+		max-width: 45%;
+	}
+	
+	.fore-info{
+		font-size: 16px;
+	}
+	
+	.monitoring-box .inner .lg-text{
+		font-size: 35px;
+	}
+}
+
+@media screen and (max-width: 1030px){
+	.wrapper{
+		max-width: 767px;
+	}
+	
+	body{
+		background: #F4F4F4;
+	}
+
+	.header-right{
+		width: 66%;
+	}
+	
+	.nav-list{
+		display: none;
+		margin-top: 15px;
+	}
+	
+	.navbar-toggle{
+		display: block;
+	}
+	
+	.img-monitoring,
+	.first-place,
+	.level-sheet,
+	.top-panel .contacts{
+		display: none;
+	}
+	
+	.bottom-panel .contacts{display: block}
+	
+	.bottom-panel{
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: reverse;
+		-ms-flex-direction: column-reverse;
+		flex-direction: column-reverse;
+	}
+	
+	.bottom-panel div{
+		display: -webkit-box;
+	  display: -webkit-flex;
+	  display: -ms-flexbox;
+	  display: flex;
+	  -webkit-flex-wrap: wrap;
+	  -ms-flex-wrap: wrap;
+	  flex-wrap: wrap;
+	  -webkit-box-pack: justify;
+	  -webkit-justify-content: space-between;
+	  -ms-flex-pack: justify;
+	  justify-content: space-between;
+	  -webkit-box-align:center;
+	  -ms-flex-align:center;
+	  align-items:center;
+	  width: 100%;
+	}
+	
+	.nav-list{
+		background: #fff;
+		width: 100%;
+		border: 1px solid #E1E1E1;
+		box-sizing: border-box;
+	}
+	
+	.nav-list li{
+		margin-right: 0;
+		display: block;
+	}
+	
+	.nav-list li .active{
+		color: #F8AF34;
+	}
+	
+	.nav-list li .active,
+	.nav-list li a{
+		padding: 10px 15px;
+		display: block;
+		font-size: 14px;
+	}
+	
+	.nav-list li a{
+		color: #333;
+	}
+	
+	.nav-list li a:hover{
+		background: #F9B234;
+		border-bottom: none;
+		color: #fff;
+	}
+	
+	.header-info .column-right{
+		width: 70%;
+	}
+	
+	.layout{
+		background-position: -500px 0;
+	}
+	
+	.item-pab p{
+		font-size: 14px;
+	}
+	
+	.title{
+		font-size: 20px;
+	}
+	
+	.intro-packages .number,
+	.intro-packages .wall-name{
+		text-align: center;
+		display: block;
+	}
+	
+	.intro-packages .item-intro{
+		width: 100%;
+		margin-bottom: 35px;
+	}
+	
+	.intro-packages .grid-box{
+		display: inline-block;
+		margin-right: 21px;
+	}
+	
+	.intro-packages .grid-box:last-child{
+		margin-right: 0;
+	}
+
+	.list-widget,
+	.intro-packages .item-intro:last-child .grid-box,
+	.intro-packages .item-intro:last-child{
+		width: 100%;
+	}
+
+	.company-news .news-item section{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.case-mailing input[type="mail"]{
+		width: 66%;
+	}
+	
+	.box-1120{
+		margin-top: 40px;
+	}
+	
+	.side-bar{
+		width: 100%;
+		background: #fff;
+		padding: 15px;
+		border: 1px solid #E1E1E1;
+	}
+	
+	.content-page{
+		width: 100%;
+		margin-top: 50px;
+	}
+	
+	.result-pager{
+		margin-left: 0;
+		text-align: center;
+	}
+	
+	.news-items{
+		border-bottom: 1px solid #E1E1E1;
+		padding-bottom: 25px;
+	}
+	
+	.news-items:last-child{
+		padding-bottom: 0;
+		border-bottom: none;
+	}
+	
+	.footer-list{
+		padding-top: 2px;
+		margin-top: 70px;
+	}
+	
+	.informer{
+		width: 100%;
+		margin-bottom: 60px;
+	}
+	
+	.bonus-table,
+	.partnership-stages-cell,
+	.unlist{
+		width: 48%;
+		margin-bottom: 25px;
+	}
+	
+	.unlist:nth-child(3){
+		margin-left: 0;
+	}
+	
+	.work-earnings section b{
+		padding: 15px;
+	}
+	
+	.head-intro{
+		padding-left: 0;
+	}
+	
+	.monitoring-box section,
+	.elasticstack{
+		width: 100%;
+	}
+	
+	.partnership-stages{
+		margin-top: 55px;
+	}
+	
+	.list-service .partnership-stages-cell,
+	.invest-stages .partnership-stages-cell{
+		width: 33%;
+	}
+
+	.different-category{
+		background: none;
+	}
+	
+	.referral-bonuses{
+		margin-top: 90px;
+		padding-top: 40px;
+	}
+	
+	.fore-info{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	
+	.city-hatstick{
+		padding: 35px 0; 
+		margin-bottom: 60px;
+	}
+	
+	.list-service{
+		background: none;
+		padding: 30px 0;
+	}
+	
+	.list-service .partnership-stages-cell:nth-child(2),
+	.list-service .partnership-stages-cell:nth-child(3),
+	.list-service .partnership-stages-cell:nth-child(4),
+	.list-service .partnership-stages-cell:nth-child(5),
+	.list-service .partnership-stages-cell:first-child{
+		margin-top: 0;
+	}
+	
+	.short-info{
+		width: 100%;
+		border-bottom: 1px solid #C0C0C0;
+		padding-bottom: 25px;
+	}
+	
+	.monitoring-box{
+		padding: 60px 0;
+	}
+	
+	.single-box{
+		background: none;
+		padding-top: 65px;
+	}
+}
+
+@media screen and (max-width: 980px){
+	.layout{
+		background-position: -575px 0;
+	}
+}
+
+@media screen and (max-width: 767px){
+	.wrapper{
+		max-width: 100%;
+	}
+	
+
+	.wrapper_carousel{
+	left: 0;
+    top: 13%;
+    right: 0;
+	}
+	.logo{
+		padding: 0;
+	}
+	
+	.logo span{display: none}
+	
+	.bottom-panel .contacts,
+	.bottom-panel .invest,
+	.top-panel{
+		display: none;
+	}
+	
+	.bottom-panel .form-search input[type="search"]{
+		display: block;
+	}
+	
+	.bottom-panel {
+		-webkit-box-pack: end;
+		-ms-flex-pack: end;
+		justify-content: flex-end;
+	}
+	
+	.navbar-toggle{margin-left: 33px}
+	
+	.header-container{
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+	
+	.header-right{
+		width: auto;
+	}
+	
+	.nav-list{
+		position: absolute;
+		top: 80px;
+		left: 2%;
+		width: 96%;
+		margin-top: 0;
+		z-index: 5;
+	}
+	
+	.form-search input[type=search]:focus{width: 150px}
+	
+	.layout{
+		background-position: -103px 0;
+		background-size: 1062px 280px;
+	}
+
+	.header-info h1{
+		font-size: 62.16px;
+	}
+	
+	.header-info .column-desc dl dd, 
+	.header-info .column-desc dl dt{
+		font-size: 16px;
+	}
+	
+	.header-info {
+		padding-top: 215px;
+	}
+	
+	.header{
+		background-position: left -228px;
+	}
+	
+	.footer .copyright,
+	.header:before{
+		display: none;
+	}
+	
+	.header-info h1{
+		text-align: center;
+		margin-bottom: 36px;
+	}
+
+	.bonus-table,
+	.information-block article,
+	.work-earnings section img,
+	.unlist,
+	.header-info .column-desc dl,
+	.header-info .column-right{
+		width: 100%;
+	}
+	
+	.advantage-company .invest{
+		margin-top: 37px;
+	}
+	
+	.advantage-company{
+		padding-right: 0;
+		padding-left: 0;
+	}
+	
+	.intro-packages .grid-box:last-child,
+	.intro-packages .grid-box{
+		margin: 20px auto;
+		display: block;
+	}
+	
+	.case-mailing h5{
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	
+	.case-mailing form{
+		border: 4px solid #fff;
+		border-radius: 30px;
+		width: 97%;
+		display: -webkit-box;
+	  display: -webkit-flex;
+	  display: -ms-flexbox;
+	  display: flex;
+	  -webkit-box-pack: justify;
+	  -webkit-justify-content: space-between;
+	  -ms-flex-pack: justify;
+	  justify-content: space-between;
+	}
+	
+	.case-mailing button{
+		border: none;
+		margin-left: 0;
+		padding: 0;
+		width: 60px;
+	}
+	
+	.case-mailing input[type="mail"]{
+		width: 90%;
+		font-size: 15px;
+	}
+	
+	.case-mailing{
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		margin-top: 50px;
+		padding-bottom: 5px;
+	}
+	
+	.case-mailing button:hover{
+		background: none;
+		color: #D5D5D5;
+	}
+	
+	.footer section{
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		border-bottom: 1px solid #DD727F;
+		padding-bottom: 25px;
+		margin-bottom: 36px;
+	}
+	
+	.footer section:last-child{
+		border: none;
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+
+	.footer .copy-app{
+		display: block;
+		text-align: center;
+		margin-top: 15px;
+	}
+	
+	.footer .invest{
+		margin: 20px 0;
+	}
+	
+	.news-block article{
+		width: 100%;
+		margin-top: 15px;
+	}
+	
+	.news-block .numbering{
+		height: auto;
+		padding-left: 10px;
+	}
+	
+	.news-items{
+		margin-bottom: 30px;
+		padding-bottom: 30px;
+	}
+	
+	.gray-panel{
+		padding-bottom: 25px;
+	}
+	
+	.button-panel,
+	.additional-options,
+	.information-block,
+	.content-page{
+		margin-top: 25px;
+	}
+	
+	.wall-text.news-block article,
+	.box-1120{
+		margin-top: 0;
+	}
+	
+	.side-bar{
+		display: none;
+	}
+	
+	.social-news,
+	.footer-list{
+		margin-top: 40px;
+	}
+	
+	.title-bl,
+	.wall-text{
+		margin-bottom: 35px;
+	}
+
+	.informer p,
+	.informer b{
+		font-size: 16px;
+	}
+	
+	.video{
+		width: 100%;
+	    border: 1px solid #333;
+	}
+	
+	.additional-options section,
+	.work-earnings section,
+	.desc-video{
+		width: 100%;
+		margin-top: 30px;
+	}
+
+	.joind-earnings{
+		padding: 18px 0;
+		width: 295px;
+	}
+
+	.slider-teamwork{
+		margin-top: 30px;
+	}
+	
+	.slider-teamwork .owl-item.active img,
+	.info-slider{
+		width: 100%;
+		margin: 10px 0;
+	}
+	
+	.carousel .owl-nav{
+		left: unset;
+		margin-left: 0;
+		bottom: unset;
+		right: 14px;
+		top: 87px;
+	}
+	
+	.example h4,
+	.elasticstack-text .date,
+	.elasticstack-text h4{
+		text-align: center;
+	}
+	
+	.investment-packages{
+		padding-bottom: 0;
+	}
+	
+	.our-webinars{
+		padding-top: 60px;
+	}
+	
+	.elasticstack{
+		margin: 60px 0 37px;
+	}
+	
+	.list-service .partnership-stages-cell,
+	.invest-stages .partnership-stages-cell{
+		width: 48%;
+	}
+	
+	.invest-stages{
+		padding-top: 80px;
+	}
+	
+	.additional-options section b{
+		padding: 15px;
+	}
+	
+	.example{
+		padding-top: 40px;
+	}
+	
+	.example article p{
+		text-align: justify;
+	}
+	
+	.different-category{
+		margin-top: 70px;
+		padding-bottom: 90px;
+	}
+
+	.monitoring-box .inner{
+		margin-top: 38px;
+	}
+	
+	.monitoring-box .inner .lg-text, 
+	.monitoring-box .inner .sm-text{
+		width: 100%;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	
+	.single-box .lg-box:nth-child(2){
+		margin-top: 0;
+	}
+	
+	.single-box .lg-box{
+		width: 100%;
+		margin-bottom: 30px;
+		border-bottom: 1px solid #C0C0C0;
+		padding-bottom: 30px;
+	}
+
+}
+
+@media screen and (max-width: 480px){
+	.logo{
+		width: 48%;
+	}
+	
+	.nav-list li a{
+		padding: 12px;
+		font-size: 13px;
+	}
+	
+	.navbar-toggle{
+		margin-left: 20px;
+	}
+	
+	.form-search input[type=search]:focus{
+		width: 80px;
+	}
+	
+	.advantage-company{
+		margin-top: 0;
+		padding-top: 45px;
+	}
+	
+	.intro-packages .grid-root .invest{
+		font-size: 12px;
+	}
+	
+	.investment-packages{
+		margin-top: 20px;
+		padding: 30px 0;
+	}
+	
+	.menu-list li i{
+		margin-right: 20px;
+	}
+
+	.monitoring-box .inner .sm-text,
+	.text-monitoring,
+	.renderer-block p,
+	.table-container tr th,
+	.table-container tr td,
+	.example article p,
+	.additional-options section b,
+	.partnership-stages-cell .text,
+	.information-block article ol li,
+	.information-block article p,
+	.elasticstack-text h4,
+	.intro-packages .wall-name,
+	.info-slider .text,
+	.mCustomScrollbar p,
+	.unlist h4,
+	.result-pager li .active,
+	.result-pager li a,
+	.news-block article .news-text{
+		font-size: 14px;
+	}
+	
+	.renderer-block h4,
+	.intro-packages .grid-root span,
+	.news-block article .news-title{
+		font-size: 16px;
+	}
+	
+	.result-pager{
+		margin-top: 25px;
+	}
+	
+	.unlist p{
+		font-size: 13px;
+		margin: 10px 0;
+	}
+	
+	.mCSB_scrollTools{
+		width: 5px;
+	}
+	
+	.work-earnings section b{
+		font-size: 13px;
+	}
+	
+	.joind-earnings{
+		font-size: 16px;
+		width: 250px;
+		margin-top: 30px;
+	}
+
+	.intro-packages .grid-root b{
+		font-size: 20px;
+	}
+	
+	.list-service .partnership-stages-cell,
+	.invest-stages .partnership-stages-cell,
+	.partnership-stages-cell{
+		width: 100%;
+	}
+	
+	.title-monitoring,
+	.partnership-stages-cell.active .text{
+		font-size: 18px;
+	}
+	
+	.short-info{
+		font-size: 17px;
+	}
+	
+	.city-hatstick{
+		margin-bottom: 35px;
+	}
+	
+	.monitoring-box .inner .lg-text {
+		font-size: 25px;
+	}
+	
+	.single-box .lg-box .number {
+		font-size: 80px;
+		text-align: center;
+	}
+	
+	.single-box .lg-box .text-single{
+		font-size: 14px;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 382px){
+	.intro-packages .item-intro:last-child .grid-box,
+	.intro-packages .grid-box{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 370px){
+	.nav-list{
+		top: 70px;
+	}
+}
